@@ -185,3 +185,51 @@ local Button = cTab:CreateButton({
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4079.58984, -558.227356, 895.022888, 0.0231698025, 1.88938873e-08, 0.999731541, -4.59359519e-08, 1, -1.78343491e-08, -0.999731541, -4.55104008e-08, 0.0231698025)
    end,
 })
+
+local dTab = Window:CreateTab("Kraken Rod ", "rewind")
+
+local Section = dTab:CreateSection("Wheel")
+
+local Button = dTab:CreateButton({
+   Name = "Wheel 1",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4358.89746, -627.110046, 2703.61401, -0.0516983978, 1.12169642e-08, 0.99866277, 3.82390901e-08, 1, -9.25243793e-09, -0.99866277, 3.77096185e-08, -0.0516983978)
+   end,
+})
+
+local Button = dTab:CreateButton({
+   Name = "Wheel 2",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4957.3833, -583.894104, 1872.26685, -0.987246692, 2.78398247e-08, -0.159197718, 2.83056512e-08, 1, -6.58529231e-10, 0.159197718, -5.15632603e-09, -0.987246692)
+   end,
+})
+
+local Button = dTab:CreateButton({
+   Name = "Wheel 3",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4281.75, -692.547852, 1114.26367, -0.999819219, -0.00655866088, 0.0178475343, -0.00448372308, 0.9934811, 0.113908924, -0.0184782762, 0.113808304, -0.993330896)
+   end,
+})
+
+local Button = dTab:CreateButton({
+   Name = "Wheel 4",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3814.56641, -566.771729, 1835.271, -0.158241689, 3.36168493e-09, 0.987400413, -9.04918451e-08, 1, -1.79068866e-08, -0.987400413, -9.21853029e-08, -0.158241689)
+   end,
+})
+
+local Button = dTab:CreateButton({
+   Name = "Wheel 5",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4288.34082, -976.790955, 1871.25073, -0.995981753, 0.00949382037, 0.0890514553, 0.00130106765, 0.995794058, -0.0916105211, -0.0895466432, -0.0911265463, -0.991805077)
+   end,
+})
+
+local Section = dTab:CreateSection("Rod")
+
+local Button = dTab:CreateButton({
+   Name = "Kraken Rod",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4410.47217, -996.260437, 2052.74634, -0.479168177, -6.24476968e-08, 0.877723098, 2.30767814e-08, 1, 8.37454976e-08, -0.877723098, 6.03832007e-08, -0.479168177)
+   end,
+})
