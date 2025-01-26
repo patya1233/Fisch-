@@ -1,0 +1,167 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Fack HUB",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Fisch",
+   LoadingSubtitle = "by KENG",
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local qTab = Window:CreateTab("Rod", "rewind")
+
+local Section = qTab:CreateSection("Champions. Rod")
+
+local Button = qTab:CreateButton({
+   Name = "tp to Champions Rod",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4272.31641, -603.40332, 1839.90808, 0.130059361, 3.55472594e-08, 0.991506219, 3.82731784e-08, 1, -4.08722052e-08, -0.991506219, 4.32639062e-08, 0.130059361)
+   end,
+})
+
+local Button = qTab:CreateButton({
+   Name = "tp to Depthseeker Rod",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4465.82959, -605.662903, 1871.87488, -0.995049298, 8.41750065e-08, -0.0993827283, 8.32245348e-08, 1, 1.37095899e-08, 0.0993827283, 5.37063594e-09, -0.995049298)
+   end,
+})
+
+local aTab = Window:CreateTab("Heart Of Zeus", "rewind")
+
+local Section = aTab:CreateSection("tp Lever")
+
+local Button = aTab:CreateButton({
+   Name = "lever 1",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2523.15088, 137.761795, 1590.29614, -0.442099184, -3.03585779e-08, -0.896966159, 6.77875223e-09, 1, -3.71869753e-08, 0.896966159, -2.25206431e-08, -0.442099184)
+   end,
+})
+
+local Button = aTab:CreateButton({
+    Name = "lever 2",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2552.53979, 149.02446, 1665.75513, 0.766771853, 3.54102454e-08, -0.641919732, -1.38920049e-08, 1, 3.85690733e-08, 0.641919732, -2.06561257e-08, 0.766771853)
+    end,
+ })
+
+ local Button = aTab:CreateButton({
+    Name = "lever 3",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2727.66724, 169, 1729.94324, -0.480036706, 4.4573131e-08, 0.877248406, -9.22243526e-09, 1, -5.5856745e-08, -0.877248406, -3.49036533e-08, -0.480036706)
+    end,
+ })
+
+ local Button = aTab:CreateButton({
+    Name = "lever 4",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2881.53564, 316.249969, 1610.64587, 0.991757929, -4.91006258e-09, 0.128125921, 8.39912051e-09, 1, -2.66911737e-08, -0.128125921, 2.7547328e-08, 0.991757929)
+    end,
+ })
+ 
+ local Button = aTab:CreateButton({
+    Name = "lever 5",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2838.49048, 132.499985, 1509.44189, 0.443140835, -1.18892958e-08, -0.89645201, -2.22106666e-09, 1, -1.43605465e-08, 0.89645201, 8.35482439e-09, 0.443140835)
+    end,
+ })
+
+ local Section = aTab:CreateSection("TNT")
+
+ local Button = aTab:CreateButton({
+    Name = "tp to tnt",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2853.28516, 217.447357, 1555.03308, -0.8157143, -3.83147958e-09, 0.578454971, -1.01245823e-09, 1, 5.19591481e-09, -0.578454971, 3.65272057e-09, -0.8157143)
+    end,
+ })
+
+ local Button = aTab:CreateButton({
+    Name = "TNT slot",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3822.1106, -104.010406, 531.174194, 0.0530580059, -0.0147360545, 0.998482704, -0.000444225239, 0.999890685, 0.0147804394, -0.998591304, -0.00122777186, 0.0530456603)
+    end,
+ })
+
+ local Button = aTab:CreateButton({
+    Name = "TNT Trigger",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3773.92432, -115.030006, 524.62384, -0.00242633652, -0.0427464768, 0.999082983, -0.00127474195, 0.999085248, 0.0427434742, -0.999996245, -0.00116986292, -0.0024786077)
+    end,
+ })
+
+ local Section = aTab:CreateSection("Heart Of Zeus")
+
+ local Button = aTab:CreateButton({
+    Name = "tp to Heart Of Zeus",
+    Callback = function()
+     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4201.77295, -196.616714, 559.387573, -0.319071621, -2.04881587e-08, 0.947730601, 3.96326953e-08, 1, 3.49612286e-08, -0.947730601, 4.87162524e-08, -0.319071621)
+    end,
+ })
+
+ local bTab = Window:CreateTab("Zeus Rod", "rewind")
+
+ local Section = bTab:CreateSection("Tp")
+
+ local Button = bTab:CreateButton({
+   Name = "tp to new",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3576.29492, 151.057678, 523.374939, -0.134128511, 2.61339022e-08, 0.990963936, -4.51093101e-08, 1, -3.24778178e-08, -0.990963936, -4.90578991e-08, -0.134128511)
+   end,
+})
+
+local Section = bTab:CreateSection("Quest")
+
+local Button = bTab:CreateButton({
+   Name = "Quest 1",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3911.27588, -672.868652, 2420.33618, 0.00828418788, 1.7051315e-08, -0.999965668, -2.7109234e-08, 1, 1.68273147e-08, 0.999965668, 2.69689036e-08, 0.00828418788)
+   end,
+})
+
+local Button = bTab:CreateButton({
+   Name = "Quest 2",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4577.53076, -673.110046, 2423.98022, -0.00191678305, 5.81197455e-08, 0.999998152, 5.57500854e-08, 1, -5.80129935e-08, -0.999998152, 5.56387825e-08, -0.00191678305)
+   end,
+})
+
+local Section = bTab:CreateSection("Rod")
+
+local Button = bTab:CreateButton({
+   Name = "tp to Enter the code",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4319.50146, -626.601807, 2614.35278, -0.258352697, -6.32407682e-09, 0.966050684, 2.97637381e-08, 1, 1.45060914e-08, -0.966050684, 3.25009673e-08, -0.258352697)
+   end,
+})
+
+local Button = bTab:CreateButton({
+   Name = "tp to Zeus Rod",
+   Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4276.57227, -627.110046, 2665.26416, -0.0478442758, 5.34905169e-08, -0.998854816, -6.27898586e-08, 1, 5.6559422e-08, 0.998854816, 6.54239969e-08, -0.0478442758)
+   end,
+})
